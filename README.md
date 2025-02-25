@@ -78,19 +78,6 @@ We use a credit card transaction dataset containing:
 - **Apriori Algorithm:** Identifying frequently purchased items together.
 - **Market Basket Analysis:** Understanding co-occurrence of spending patterns across different merchant categories.
 
-## 💪 Results & Insights
-
-- Customers exhibit distinct spending behaviors that can be used for targeted marketing.
-- High-value transactions often follow seasonal trends.
-- Machine Learning models successfully identify anomalies and clusters in spending behavior.
-- Fraudulent transactions tend to cluster around specific merchants and time frames.
-- Customers who frequently shop at multiple high-end merchants have a higher risk of fraudulent transactions.
-- **Fraudulent transactions often involve international merchants or unusual locations.**
-- **Repeat transactions at the same merchant within short timeframes may indicate fraudulent behavior.**
-- **Fraud detection models show high precision, but further optimization is needed to reduce false positives.**
-- **Anomaly detection methods successfully flagged outliers, but a hybrid approach improves accuracy.**
-- **Feature importance analysis indicates that transaction amount, merchant category, and transaction time are key fraud indicators.**
-
 ## 📊 Visualizations
 
 - **Top Spending Categories & Merchants**
@@ -111,13 +98,15 @@ We use a credit card transaction dataset containing:
 - **Correlation Heatmap of Key Transaction Features**
 - **Merchant Risk Score Distribution**
 
-## 🚀 Future Enhancements
+## 💪 Results & Insights
 
-- Implement a real-time fraud detection system.
-- Enhance customer segmentation with deep learning.
-- Integrate more external datasets for improved accuracy.
-- Use Reinforcement Learning for adaptive fraud detection models.
-- Develop a mobile-friendly dashboard for real-time analytics.
-- Improve fraud detection recall by reducing false positives through better feature selection.
-- Implement adversarial training methods to detect evolving fraud strategies.
-- Leverage blockchain technology for enhanced transaction security.
+- Customers exhibit distinct spending behaviors that can be used for targeted marketing.
+- High-value transactions often follow seasonal trends.
+- Machine Learning models successfully identify anomalies and clusters in spending behavior.
+- Fraudulent transactions tend to cluster around specific merchants and time frames.
+- Customers who frequently shop at multiple high-end merchants have a higher risk of fraudulent transactions.
+- **Fraudulent transactions often involve international merchants or unusual locations.**
+- **Repeat transactions at the same merchant within short timeframes may indicate fraudulent behavior.**
+- **Fraud detection models show high precision, but further optimization is needed to reduce false positives.**
+- **Anomaly detection methods successfully flagged outliers, but a hybrid approach improves accuracy.**
+- **Feature importance analysis indicates that transaction amount, merchant category, and transaction time are key fraud indicators.**
